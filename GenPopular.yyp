@@ -1,6 +1,10 @@
 {
   "resources": [
+    {"id":{"name":"FoodGenerator","path":"objects/FoodGenerator/FoodGenerator.yy",},"order":3,},
+    {"id":{"name":"ControlObj","path":"objects/ControlObj/ControlObj.yy",},"order":2,},
     {"id":{"name":"Entity","path":"objects/Entity/Entity.yy",},"order":0,},
+    {"id":{"name":"Sprite1","path":"sprites/Sprite1/Sprite1.yy",},"order":0,},
+    {"id":{"name":"Food","path":"objects/Food/Food.yy",},"order":1,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [

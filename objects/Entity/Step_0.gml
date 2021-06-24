@@ -1,6 +1,6 @@
 /// @description Insert description here
-//x += random(10)-5;
-//y += random(10)-5;
+x += random(2)-1;
+y += random(2)-1;
 
 hungry_status -= random(1) * 0.005 * hungry_speed;
 if(hungry_status <= 0){

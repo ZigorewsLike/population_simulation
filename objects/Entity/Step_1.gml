@@ -23,3 +23,17 @@ if(instance_exists(target_food)){
 		near_food = false;
 	}
 }
+
+var n = instance_number(Entity);
+var pointx = x;
+var pointy = y;
+var list = ds_priority_create();
+with (Entity) ds_priority_add(list, id, distance_to_point(pointx,pointy));
+repeat (n){
+	target_couple = ds_priority_delete_min(list);
+	if(target_couple.gender != self.gender && point_in_circle(x, y, target_couple.x, target_couple.y, area_visible_distance))
+		break;
+	else
+		target_couple = noone;
+}
+ds_priority_destroy(list);

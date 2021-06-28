@@ -7,6 +7,8 @@
     {"id":{"name":"ControlObj","path":"objects/ControlObj/ControlObj.yy",},"order":2,},
     {"id":{"name":"inputs","path":"scripts/inputs/inputs.yy",},"order":0,},
     {"id":{"name":"Entity","path":"objects/Entity/Entity.yy",},"order":0,},
+    {"id":{"name":"Sprite4","path":"sprites/Sprite4/Sprite4.yy",},"order":3,},
+    {"id":{"name":"DeadParticle","path":"objects/DeadParticle/DeadParticle.yy",},"order":0,},
     {"id":{"name":"Sprite1","path":"sprites/Sprite1/Sprite1.yy",},"order":0,},
     {"id":{"name":"Food","path":"objects/Food/Food.yy",},"order":1,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
@@ -42,6 +44,7 @@
     {"folderPath":"folders/Animation Curves.yy","order":12,"resourceVersion":"1.0","name":"Animation Curves","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Notes.yy","order":13,"resourceVersion":"1.0","name":"Notes","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Extensions.yy","order":14,"resourceVersion":"1.0","name":"Extensions","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects/FX.yy","order":5,"resourceVersion":"1.0","name":"FX","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},

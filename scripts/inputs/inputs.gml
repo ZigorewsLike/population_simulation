@@ -27,8 +27,8 @@ function inputs(){
 	viewup = (keyboard_check(vk_up)|| (gamepad_axis_value(0, gp_axislv)) < -deadzone);
 	viewdown = (keyboard_check(vk_down)|| (gamepad_axis_value(0, gp_axislv)) > deadzone);
 	
-	viewMinus = keyboard_check(ord("N"));
-	viewPlus = keyboard_check(ord("M"));
+	viewMinus = keyboard_check(ord("M"));
+	viewPlus = keyboard_check(ord("N"));
 
 	if gamepad_is_connected(0){
 		gamepad_set_axis_deadzone(0, deadzone);

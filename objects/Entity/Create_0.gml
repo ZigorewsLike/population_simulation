@@ -8,6 +8,7 @@ target_couple = noone;
 speed_to_food = 2.6;
 speed_walk = 1.4;
 hungry_speed = random(0.5) + 0.1;
+common_hungry_speed = 0.001;
 hungry_active = random(0.5) + 0.5;
 near_food = false;
 gender = irandom(1);
@@ -28,8 +29,10 @@ enum SlimeActions{
 	len,
 }
 
-
 sel_action = irandom(SlimeActions.len-2);
 do_action = true;
+
+///////////////CHILD///////////////////
+isChild = false;
 
 randomise();

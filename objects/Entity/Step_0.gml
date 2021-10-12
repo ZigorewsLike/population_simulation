@@ -9,7 +9,7 @@ if(moveble){
 
 if(!freeze){
 
-	hungry_status -= random(1) * 0.003 * hungry_speed;
+	hungry_status -= random(1) * common_hungry_speed * hungry_speed;
 	if(hungry_status <= 0){
 		instance_create_depth(x, y, 0, DeadParticle);
 		instance_destroy(self);

@@ -1,11 +1,14 @@
 /// @description Draw slime and debug
 //draw_set_color(c_blue);
 //draw_rectangle(x-width_object/2, y-width_object/2, x+width_object/2, y+width_object/2, false);
-var slime_color = c_blue;
+var slime_color = make_color_rgb(50,50,200);
+var slime_scale = 1;
 
 if(gender == 1)
-	slime_color = make_color_rgb(255,20,147)
-draw_sprite_ext(slime, 0, x, y, 1, 1, 0, slime_color, 1.0);
+	slime_color = make_color_rgb(255,20,147);
+if(isChild)
+	slime_scale = 0.7;
+draw_sprite_ext(slime, 0, x, y, slime_scale, slime_scale, 0, slime_color, 1.0);
 draw_set_color(c_yellow);
 draw_set_alpha(0.1);
 //draw_ellipse(x-area_visible_distance, y-area_visible_distance, x+area_visible_distance, y+area_visible_distance, true);
